@@ -84,25 +84,52 @@ footer * {
     z-index: 10;
 }
 
-body {
-    cursor: url('/arrow.cur'), auto !important;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    cursor: url('/arrow.png'), auto !important;
 }
 
 a, 
 button, 
+[role="button"], 
+input[type="submit"], 
+input[type="button"], 
+input[type="reset"],
 .clickable, 
 .notion-page-link, 
 .post-title, 
 .article-tag, 
 .menu-link,
-[role="button"] {
-    cursor: url('/hand.cur'), pointer !important;
+svg,
+i,
+img,
+.fa,
+.fas,
+.far,
+[onclick] {
+    cursor: url('/hand.png'), pointer !important;
 }
 
-p, h1, h2, h3, h4, span, input, textarea, [contenteditable] {
-    cursor: url('/text.cur'), text !important;
+a:hover, button:hover, svg:hover, i:hover, span:hover {
+    cursor: url('/hand.png'), pointer !important;
 }
 
-.disabled, [disabled] {
-    cursor: url('/unavailable.cur'), not-allowed !important;
+input[type="text"], 
+input[type="password"], 
+input[type="email"], 
+input[type="search"], 
+textarea, 
+[contenteditable] {
+    cursor: url('/text.png'), pointer !important;
 }
