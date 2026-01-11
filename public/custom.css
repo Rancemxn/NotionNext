@@ -45,3 +45,20 @@ footer * {
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
     color: #fff !important;
 }
+
+.dark #theme-hexo, 
+.dark #wrapper, 
+.dark .bg-black,
+#theme-hexo.dark {
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+.dark body {
+    background-image: url('/bg.webp') !important;
+    background-color: #000 !important;
+}
+
+.dark #sticky-nav, .dark footer {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
