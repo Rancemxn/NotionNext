@@ -1,0 +1,10 @@
+body {
+    background-image: url('/bg.webp') !important;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  /* 让内容区半透明，防止看不清字 */
+  #wrapper, .container {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
