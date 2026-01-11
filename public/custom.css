@@ -83,3 +83,26 @@ footer * {
     position: relative;
     z-index: 10;
 }
+
+body {
+    cursor: url('/arrow.cur'), auto !important;
+}
+
+a, 
+button, 
+.clickable, 
+.notion-page-link, 
+.post-title, 
+.article-tag, 
+.menu-link,
+[role="button"] {
+    cursor: url('/hand.cur'), pointer !important;
+}
+
+p, h1, h2, h3, h4, span, input, textarea, [contenteditable] {
+    cursor: url('/text.cur'), text !important;
+}
+
+.disabled, [disabled] {
+    cursor: url('/unavailable.cur'), not-allowed !important;
+}
