@@ -68,7 +68,9 @@ const BLOG = {
     '',
 
   // uuid重定向至 slug
-  UUID_REDIRECT: process.env.UUID_REDIRECT || false
+  UUID_REDIRECT: process.env.UUID_REDIRECT || false,
+
+  MENU_RANDOM_POST: false
 }
 
 module.exports = BLOG
